@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    background:pink
+    
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    text-decoration:none;
+    z-index: 10;
+}
+.links{
+   float:left;
+    color: black;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    font-size: 20px;
+   font-family:fantasy;
+    text-decoration:none;
+}
+.links:hover{
+    background-color:aqua;
+}
+h1{
+    text-shadow: 2px 2px 2px #90A4AE;
+    font-size: 20px;
+}
+#welcome{
+    opacity: 0.8;
+    z-index: 9;
+    font-family: serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    font-size: 15px
+}
+img{
+    width: 250px;
+    transition: transform .2s;
+    border: 10px solid;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#contact{
+    background:black;
+    display: block;
+    
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+    
+}
+.contact_1 h3{
+    display:inline;
+    text-decoration: none;
+}
+#contact iframe{
+    width: 100%;
+}
